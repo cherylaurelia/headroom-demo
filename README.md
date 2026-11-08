@@ -16,7 +16,7 @@ Ask "Who opened issue #4475?" over a 100-row `gh issue list` result, and [Headro
 | Claude Code (Sonnet), no Headroom | 12/12 |
 | Claude Code via `headroom proxy` 0.43.1 | 2/12 |
 | … SmartCrusher fix only | 2/12 |
-| … both fixes ([branch](https://github.com/cherylaurelia/headroom/tree/fix/keep-query-matches)) | 12/12 |
+| … both fixes ([SmartCrusher](https://github.com/cherylaurelia/headroom/tree/fix/keep-query-matches), [query](https://github.com/cherylaurelia/headroom/tree/fix/toolsearch-query-note)) | 12/12 |
 | gpt-oss-20b, README `compress()`, raw / 0.43.1 / fix | 12/12 / 2/12 / 10/12 |
 
 Tokens saved per proxy request (median): 9,170 before, 9,075 after.

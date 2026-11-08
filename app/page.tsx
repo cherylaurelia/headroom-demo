@@ -8,8 +8,10 @@ import libraryRaw from "@/bench/runs/gptoss_library.json";
 import { ClaudeRun, Excerpt, LibraryRun, median, score, type Score } from "@/lib/results";
 
 const BRANCH_URL = "https://github.com/cherylaurelia/headroom/tree/fix/keep-query-matches";
+const QUERY_BRANCH_URL = "https://github.com/cherylaurelia/headroom/tree/fix/toolsearch-query-note";
 const REPO_URL = "https://github.com/cherylaurelia/headroom-demo";
 const BENCH_URL = `${REPO_URL}/tree/main/bench`;
+const RUNS_URL = `${BENCH_URL}/runs`;
 
 const before = Excerpt.parse(beforeRaw);
 const after = Excerpt.parse(afterRaw);
@@ -24,7 +26,7 @@ const claudeRows: { label: string; note: string; s: Score }[] = [
   { label: "No Headroom", note: "full tool output", s: claudeOks(claudeDirect) },
   { label: "headroom proxy 0.43.1", note: "from PyPI", s: claudeOks(claudeBefore) },
   { label: "SmartCrusher fix only", note: "query is still \"Tool loaded.\"", s: claudeOks(claudeRustOnly) },
-  { label: "Both fixes", note: "this branch", s: claudeOks(claudeAfter) },
+  { label: "Both fixes", note: "the two branches above", s: claudeOks(claudeAfter) },
 ];
 
 const libraryRows: { label: string; note: string; s: Score }[] = [
@@ -37,7 +39,12 @@ function Scoreboard({ title, caption, rows }: { title: string; caption: string; 
   return (
     <div className="rounded-xl border border-line bg-panel p-5">
       <h3 className="font-semibold">{title}</h3>
-      <p className="mt-1 text-sm text-muted">{caption}</p>
+      <p className="mt-1 text-sm text-muted">
+        {caption}{" "}
+        <a href={RUNS_URL} className="text-blue underline underline-offset-2">
+          Every answer
+        </a>
+      </p>
       <table className="mt-4 w-full text-sm">
         <tbody>
           {rows.map((row) => {
@@ -67,9 +74,9 @@ function ToolOutput({ excerpt, title, answer }: { excerpt: Excerpt; title: strin
 
   return (
     <div className={`rounded-xl border bg-panel p-5 ${good ? "border-mint/50" : "border-bad/50"}`}>
-      <div className="flex items-baseline justify-between gap-3">
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3">
         <h3 className="font-semibold">{title}</h3>
-        <span className="font-mono text-xs text-muted">{excerpt.strategy}</span>
+        <span className="whitespace-nowrap font-mono text-xs text-muted">{excerpt.strategy}</span>
       </div>
       <p className="mt-1 text-sm text-muted">Rows #4471 to #4476 of what the model receives:</p>
       <pre className="mt-3 overflow-x-auto rounded-lg bg-panel-2 p-3 font-mono text-xs leading-6">
@@ -116,7 +123,10 @@ export default function Page() {
       </p>
       <div className="mt-7 flex flex-wrap gap-3">
         <a href={BRANCH_URL} className="rounded-lg bg-mint px-4 py-2.5 font-semibold text-bg hover:opacity-90">
-          See the fix branch
+          SmartCrusher fix
+        </a>
+        <a href={QUERY_BRANCH_URL} className="rounded-lg border border-mint/60 bg-panel px-4 py-2.5 font-semibold hover:border-mint">
+          Query fix
         </a>
         <a href={REPO_URL} className="rounded-lg border border-line bg-panel px-4 py-2.5 font-semibold hover:border-muted">
           Demo repo
@@ -163,7 +173,7 @@ export default function Page() {
           </p>
         </div>
         <div className="rounded-xl border border-line bg-panel p-5">
-          <h3 className="font-semibold">Why the proxy fix alone isn&rsquo;t enough</h3>
+          <h3 className="font-semibold">Why the SmartCrusher fix alone isn&rsquo;t enough</h3>
           <p className="mt-2 text-sm text-soft">
             Claude Code loads MCP tools through ToolSearch, whose result carries a &ldquo;Tool loaded.&rdquo; text
             block. <code className="font-mono text-blue">extract_user_query</code> stops at the newest user text, so
