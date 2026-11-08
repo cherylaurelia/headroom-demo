@@ -6,7 +6,7 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const mono = JetBrains_Mono({ variable: "--font-jetbrains", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Headroom drops the row your question names",
+  title: "SmartCrusher drops the row your question names",
   description:
     "SmartCrusher cuts the exact row a question asks about, and in Claude Code the proxy scores against \"Tool loaded.\" instead of the question. Recorded runs before and after a small fix. Unofficial demo by Cheryl Aurelia.",
 };

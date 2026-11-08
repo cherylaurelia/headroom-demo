@@ -109,7 +109,7 @@ export default function Page() {
     <main className="mx-auto max-w-4xl px-5 py-12 sm:py-16">
       <p className="font-mono text-xs uppercase tracking-widest text-mint">Headroom · SmartCrusher</p>
       <h1 className="mt-3 text-3xl font-bold leading-tight sm:text-5xl">
-        Ask about issue #4475, and Headroom cuts issue #4475.
+        Ask about issue #4475, and SmartCrusher drops it.
       </h1>
       <p className="mt-5 text-lg text-soft">
         <span className="font-semibold text-text">Problem:</span> on a 100-row tool output, SmartCrusher drops the
@@ -119,7 +119,7 @@ export default function Page() {
       <p className="mt-2 text-lg text-soft">
         <span className="font-semibold text-text">Fix:</span> keep rows that match an exact ID from the question,
         and skip Claude Code&rsquo;s tool-loading note when reading the question. 10 of 12 asked-about rows were cut
-        before; all 12 are kept after, at about 95 more tokens per call.
+        before; all 12 are kept after, at about 95 more tokens per Claude Code request.
       </p>
       <div className="mt-7 flex flex-wrap gap-3">
         <a href={BRANCH_URL} className="rounded-lg bg-mint px-4 py-2.5 font-semibold text-bg hover:opacity-90">

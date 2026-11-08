@@ -1,4 +1,4 @@
-# Headroom drops the row your question names
+# SmartCrusher drops the row your question names
 
 Unofficial demo by Cheryl Aurelia, not affiliated with Headroom Labs. Live: https://headroom-query-rows.vercel.app
 
