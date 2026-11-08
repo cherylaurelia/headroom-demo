@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Colors and fonts from headroomlabs.ai (dark, mint accent, Inter + JetBrains Mono) */
+@theme {
+  --color-bg: #070a0f;
+  --color-panel: #0c1118;
+  --color-panel-2: #10131b;
+  --color-line: #1d2430;
+  --color-text: #e7edf5;
+  --color-soft: #c5ced9;
+  --color-muted: #98a4b3;
+  --color-mint: #00f0b5;
+  --color-blue: #65d8ff;
+  --color-bad: #ff6b7a;
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}

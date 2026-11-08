@@ -1,0 +1,242 @@
+[
+ {
+  "number": 4475,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep, CLOSED"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": "NOT FOUND"
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3396,
+   "answer": "HetCreep, CLOSED",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4566,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "Java123456com, OPEN"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": ""
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3383,
+   "answer": "Java123456com, OPEN",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4446,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "liziye627-design, OPEN"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": "NOT FOUND"
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3381,
+   "answer": "liziye627-design; open",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4367,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep opened issue\u202f#4367, and it is **closed**."
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": "NOT FOUND"
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3409,
+   "answer": "HetCreep, closed.",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4683,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep, open"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": ""
+  },
+  "after": {
+   "ok": false,
+   "prompt_tokens": 3388,
+   "answer": "NOT FOUND",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4639,
+  "row_kept_before": true,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "reply2future, closed"
+  },
+  "before": {
+   "ok": true,
+   "prompt_tokens": 3294,
+   "answer": "Mervyn\u202fZhan (login\u202freply2future) opened issue\u202f#4639, and it is CLOSED."
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3294,
+   "answer": "Mervyn\u202fZhan (login\u202freply2future) opened issue\u202f#4639, and it is CLOSED.",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4409,
+  "row_kept_before": true,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep opened issue\u202f#4409, and it is **closed**."
+  },
+  "before": {
+   "ok": true,
+   "prompt_tokens": 3294,
+   "answer": "The issue was opened by **HetCreep** and it is **closed**."
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3294,
+   "answer": "The issue was opened by **HetCreep** and it is **closed**.",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4622,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "dollyto, CLOSED"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": ""
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3384,
+   "answer": "dollyto, CLOSED",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4462,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep opened issue\u202f#4462, and it is **closed**."
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": "NOT FOUND"
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3386,
+   "answer": "HetCreep opened issue\u202f#4462, and it is currently **closed**.",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4400,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep, CLOSED"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": ""
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3382,
+   "answer": "HetCreep, CLOSED",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4666,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "haumanto CLOSED"
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": ""
+  },
+  "after": {
+   "ok": false,
+   "prompt_tokens": 3396,
+   "answer": "NOT FOUND",
+   "row_kept": true
+  }
+ },
+ {
+  "number": 4417,
+  "row_kept_before": false,
+  "raw": {
+   "ok": true,
+   "prompt_tokens": 11661,
+   "answer": "HetCreep, closed."
+  },
+  "before": {
+   "ok": false,
+   "prompt_tokens": 3294,
+   "answer": ""
+  },
+  "after": {
+   "ok": true,
+   "prompt_tokens": 3388,
+   "answer": "HetCreep, CLOSED",
+   "row_kept": true
+  }
+ }
+]

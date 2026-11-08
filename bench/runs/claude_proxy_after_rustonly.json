@@ -1,0 +1,62 @@
+[
+ {
+  "number": 4475,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4475 isn't in the tool output. The list jumps from #4476 (opened by HetCreep, closed) to #4471, so #4475 is missing. The output also ends with a placeholder saying 72 rows were offlo"
+ },
+ {
+  "number": 4566,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4566 isn't in the tool output.  The list is in descending order by number. It goes from #4585 straight to #4492, with nothing for #4566 in between. The last part of the output was tr"
+ },
+ {
+  "number": 4446,
+  "ok": false,
+  "answer": "**NOT FOUND.** Issue #4446 isn't in the tool output.  The list is sorted newest-first, and it goes straight from #4460 to #4433. If #4446 existed in this result, it would sit between those two. The ro"
+ },
+ {
+  "number": 4367,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4367 isn't in the tool output. The list jumps from #4372 to #4362, and 72 rows were offloaded and not shown."
+ },
+ {
+  "number": 4683,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4683 isn't in the tool output. The list is ordered newest first and goes straight from #4687 to #4663, so #4683 would have appeared between them if it were there. The output was also"
+ },
+ {
+  "number": 4639,
+  "ok": true,
+  "answer": "Issue #4639 was opened by **reply2future** (Mervyn Zhan), and it is **closed**.  The title is \"[BUG] OpenClaw headroom_retrieve rejects supported 12-character SmartCrusher hashes.\""
+ },
+ {
+  "number": 4409,
+  "ok": true,
+  "answer": "Issue #4409 was opened by **HetCreep**, and it is **closed**.  The title is \"[BUG] `headroom wrap zcode` can use the proxy itself as upstream, and a null `baseURL` raises AttributeError\". It was creat"
+ },
+ {
+  "number": 4622,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4622 isn't in the `list_issues` output (limit 100, state all). The list is sorted newest first, and it goes straight from #4638 to #4615 with nothing in between. The 72 older rows th"
+ },
+ {
+  "number": 4462,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4462 isn't in the `list_issues` output, which covers `headroomlabs-ai/headroom` with state all and limit 100.  The list is sorted by number, newest first. It goes from #4465 straight"
+ },
+ {
+  "number": 4400,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4400 isn't in the tool output.  The list is in descending order, and #4409 is followed directly by #4394, so #4400 would have been between them. The rest of the output was compressed"
+ },
+ {
+  "number": 4666,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4666 isn't in the tool output.  The list is sorted newest first. It goes straight from #4687, #4688 and #4689 down to #4663, with nothing between #4663 and #4687. The output also has"
+ },
+ {
+  "number": 4417,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4417 isn't in the tool output.  The list is in descending order by issue number and goes \u20264427, 4418, 4409\u2026, so #4417 would sit between #4418 and #4409. It isn't there."
+ }
+]

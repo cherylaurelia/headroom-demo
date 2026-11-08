@@ -1,0 +1,62 @@
+[
+ {
+  "number": 4475,
+  "ok": true,
+  "answer": "Issue #4475 was opened by **HetCreep**, and it is **closed**.  Its title is \"[BUG] Lossless provider contract is enforced on the general path but not for excluded tool output\u2026\". It was created on 2026"
+ },
+ {
+  "number": 4566,
+  "ok": true,
+  "answer": "Issue #4566 was opened by **Java123456com**, and it is **open**.  Its title is \"SmartCrusher is 3-8x over its documented perf targets on the benchmark fixtures (O(n\u00b7clusters) simhash dedup)\". It was c"
+ },
+ {
+  "number": 4446,
+  "ok": true,
+  "answer": "Issue #4446 was opened by **liziye627-design** (display name \"CyberSprout\"), and it is **open**.  Its title is \"[FEATURE] Per-part eligible-token tracking for Gemini so active_savings_percent uses the"
+ },
+ {
+  "number": 4367,
+  "ok": true,
+  "answer": "Issue #4367 was opened by **HetCreep**, and it is **closed**.  Its title is \"[BUG] memory/traffic_learner.py: _commands_related_as_retry runs an O(n*m) pure-Python Levenshtein over untruncated Bash co"
+ },
+ {
+  "number": 4683,
+  "ok": true,
+  "answer": "Issue #4683 was opened by **HetCreep** and is **OPEN**.  The tool output lists it as \"[BUG] SmartCrusher with factor_out_constants=true: a mixed array keeps zero dict rows, and the CCR marker under-re"
+ },
+ {
+  "number": 4639,
+  "ok": true,
+  "answer": "Issue #4639 was opened by **reply2future** (Mervyn Zhan). It is **closed**.  Its title is \"[BUG] OpenClaw headroom_retrieve rejects supported 12-character SmartCrusher hashes\"."
+ },
+ {
+  "number": 4409,
+  "ok": true,
+  "answer": "Issue #4409 was opened by **HetCreep**, and it is **closed**.  Its title is \"[BUG] `headroom wrap zcode` can use the proxy itself as upstream, and a null `baseURL` raises AttributeError\"."
+ },
+ {
+  "number": 4622,
+  "ok": true,
+  "answer": "Issue #4622 was opened by **dollyto**, and it is **CLOSED**.  Its title is \"[BUG] Cache mode runs and injects the memory-context search on the OpenAI chat/Responses/WS paths\". It was created 2026-11-0"
+ },
+ {
+  "number": 4462,
+  "ok": true,
+  "answer": "Issue #4462 was opened by **HetCreep**, and it is **closed**. Its title is \"[BUG] Mixed-content splitter still carves ISO-timestamped log rows into SEARCH_RESULTS sections (residual of #3736)\"."
+ },
+ {
+  "number": 4400,
+  "ok": true,
+  "answer": "Issue #4400 was opened by **HetCreep**, and it is **closed**.  Its title is \"[BUG] cc-switch reconciler captures the proxy's own URL as upstream when spelled localhost or with /v1\"."
+ },
+ {
+  "number": 4666,
+  "ok": true,
+  "answer": "Issue #4666 was opened by **haumanto**, and it is **closed**.  Its title is \"[BUG] HEADROOM_DISABLE_KOMPRESS=1 still loads the Kompress model during /v1/compress (RSS 315 MB to 1.3 GB)\"."
+ },
+ {
+  "number": 4417,
+  "ok": true,
+  "answer": "Issue #4417 was opened by **HetCreep** and is **closed**. Its title is \"[BUG] opencode plugin: bare \"/messages\" and \"/responses\" suffix match can route non-LLM URLs through the proxy\"."
+ }
+]

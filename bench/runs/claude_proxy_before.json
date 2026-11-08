@@ -1,0 +1,62 @@
+[
+ {
+  "number": 4475,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4475 isn't in the tool output. The list jumps from #4476 (opened by HetCreep, closed) to #4471, so #4475 isn't among the returned issues. The output was also cut off after about 28 r"
+ },
+ {
+  "number": 4566,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4566 isn't in the tool output.  The list is in descending order, and it goes straight from #4585 to #4492 with nothing between them. The output also dropped 72 rows after #4293, but "
+ },
+ {
+  "number": 4446,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4446 isn't in the `list_issues` output.  The results are in descending order and go straight from #4460 to #4433, so #4446 would have appeared between them. The only compressed secti"
+ },
+ {
+  "number": 4367,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4367 isn't in the tool output.  The list is in descending order by number. #4372 is followed directly by #4362, and #4367 isn't between them. The output also has a compressed marker "
+ },
+ {
+  "number": 4683,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4683 isn't in the tool output.  The list is in descending order by issue number, and #4687 is followed directly by #4663. #4683 would sit between them, so it's absent from the return"
+ },
+ {
+  "number": 4639,
+  "ok": true,
+  "answer": "Issue #4639 was opened by **reply2future** (Mervyn Zhan). It is **closed**.  Its title is \"[BUG] OpenClaw headroom_retrieve rejects supported 12-character SmartCrusher hashes\"."
+ },
+ {
+  "number": 4409,
+  "ok": true,
+  "answer": "Issue #4409 was opened by **HetCreep**, and it is **closed**.  The title is \"[BUG] `headroom wrap zcode` can use the proxy itself as upstream, and a null `baseURL` raises AttributeError\". It was creat"
+ },
+ {
+  "number": 4622,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4622 isn't in the tool output.  The list is sorted newest first. It goes #4638, then #4615, with nothing between them. The part of the output that was cut off only covers rows after "
+ },
+ {
+  "number": 4462,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4462 isn't in the tool output.  The list is sorted by issue number, newest first. It goes from #4465 straight to #4460, so #4462 would sit between them if it were in the results. It "
+ },
+ {
+  "number": 4400,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4400 isn't in the tool output.  The list is sorted newest first. It goes from #4409 straight to #4394, so #4400 would sit in that gap. The 72 rows the output dropped all come after #"
+ },
+ {
+  "number": 4666,
+  "ok": false,
+  "answer": "NOT FOUND. Issue #4666 isn't in the tool output.  The returned list is sorted newest first. It goes from #4687 straight to #4663, with nothing between them. The 72 rows the tool collapsed into a place"
+ },
+ {
+  "number": 4417,
+  "ok": false,
+  "answer": "NOT FOUND.  Issue #4417 isn't in the visible `list_issues` output. The list jumps from #4418 to #4409 and doesn't include #4417.  The output also ended with a marker saying 72 rows were compressed out"
+ }
+]
