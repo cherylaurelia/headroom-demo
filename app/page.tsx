@@ -7,8 +7,8 @@ import claudeRustOnlyRaw from "@/bench/runs/claude_proxy_after_rustonly.json";
 import libraryRaw from "@/bench/runs/gptoss_library.json";
 import { ClaudeRun, Excerpt, LibraryRun, median, score, type Score } from "@/lib/results";
 
-const BRANCH_URL = "https://github.com/cherylaurelia/headroom/tree/fix/keep-query-matches";
-const QUERY_BRANCH_URL = "https://github.com/cherylaurelia/headroom/tree/fix/toolsearch-query-note";
+const BRANCH_URL = "https://github.com/headroomlabs-ai/headroom/pull/4713";
+const QUERY_BRANCH_URL = "https://github.com/headroomlabs-ai/headroom/pull/4714";
 const REPO_URL = "https://github.com/cherylaurelia/headroom-demo";
 const BENCH_URL = `${REPO_URL}/tree/main/bench`;
 const RUNS_URL = `${BENCH_URL}/runs`;
@@ -26,7 +26,7 @@ const claudeRows: { label: string; note: string; s: Score }[] = [
   { label: "No Headroom", note: "full tool output", s: claudeOks(claudeDirect) },
   { label: "headroom proxy 0.43.1", note: "from PyPI", s: claudeOks(claudeBefore) },
   { label: "SmartCrusher fix only", note: "query is still \"Tool loaded.\"", s: claudeOks(claudeRustOnly) },
-  { label: "Both fixes", note: "the two branches above", s: claudeOks(claudeAfter) },
+  { label: "Both fixes", note: "the two PRs above", s: claudeOks(claudeAfter) },
 ];
 
 const libraryRows: { label: string; note: string; s: Score }[] = [
@@ -123,7 +123,7 @@ export default function Page() {
       </p>
       <div className="mt-7 flex flex-wrap gap-3">
         <a href={BRANCH_URL} className="rounded-lg bg-mint px-4 py-2.5 font-semibold text-bg hover:opacity-90">
-          SmartCrusher fix
+          SmartCrusher PR
         </a>
         <a href={QUERY_BRANCH_URL} className="rounded-lg border border-mint/60 bg-panel px-4 py-2.5 font-semibold hover:border-mint">
           Query fix
